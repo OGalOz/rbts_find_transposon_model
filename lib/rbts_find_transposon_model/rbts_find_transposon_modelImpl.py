@@ -90,7 +90,9 @@ class rbts_find_transposon_model:
         #BEGIN run_rbts_find_transposon_model
      
         logging.basicConfig(level=logging.DEBUG)
+        
 
+        # PREPARE PARAMS
         validate_params(params) 
 
 
