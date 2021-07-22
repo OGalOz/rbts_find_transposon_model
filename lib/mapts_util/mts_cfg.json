@@ -1,0 +1,10 @@
+{
+    "model_fp": null,
+    "debug": false,
+    "maxReads": 10000,
+    "minQuality": 10, 
+    "flanking":5,
+    "wobbleAllowed": 2,
+    "minScore": 15,
+    "delta": 5
+}

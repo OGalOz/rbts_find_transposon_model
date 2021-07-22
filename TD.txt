@@ -1,0 +1,8 @@
+
+
+TD:
+
+    Create proper cfg_d
+    What does model_info_list contain?
+
+
