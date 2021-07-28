@@ -1,7 +1,7 @@
 #
 # define display information
 #
-name: RBTnSeq Find Transposon Model 
+name: RBTnSeq Find TnSeq Model 
 
 tooltip: |
     If you don't know which transposon model was used when inserting into genome,
@@ -62,4 +62,4 @@ parameters :
         long-hint : |
 
 description : |
-    <p>Find which transposon model was likely used in this insertion<p>
+    <p>Get a list of different success rates for the various existing TnSeq Models.<p>
