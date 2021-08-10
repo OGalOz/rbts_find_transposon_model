@@ -7,7 +7,7 @@ import os
 
 
 def validate_params(params):
-    
+
     for x in ["fastq_ref_list", "maxReads", "minQuality"]:
         if x not in params:
             raise Exception(f" {x} must be part of params."
