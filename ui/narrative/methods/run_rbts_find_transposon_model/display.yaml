@@ -4,9 +4,8 @@
 name: RBTnSeq Find TnSeq Model 
 
 tooltip: |
-    If you don't know which transposon model was used when inserting into genome,
-    this app finds the best option out of the standard transposon models given
-    the reads.
+    If you're unsure which transposon model was initially used,
+    this app lists the results from all the standard transposon models.
 
 screenshots: []
 
