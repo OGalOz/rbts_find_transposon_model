@@ -75,7 +75,6 @@ class rbts_find_transposon_model:
         
         What do we take as inputs?
             FASTQ files
-            Genome FNA (?) - maybe we don't even use this.
         What do we need?
             All the existing possible 'models' to check FASTQs against.
         What do we do?

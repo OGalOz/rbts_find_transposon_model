@@ -11,17 +11,6 @@
     },
     "parameters": [ 
         {
-            "id": "genome_ref",
-            "optional": false,
-            "advanced": false,
-            "allow_multiple": false,
-            "default_values": [""],
-            "field_type" : "text",
-            "text_options": {
-                "valid_ws_types": ["KBaseGenomes.Genome"]
-            }
-        },
-        {
             "id": "fastq_ref_list",
                 "optional": false,
                 "advanced": false,
@@ -69,11 +58,6 @@
                     "target_property": "workspace_id"
                 },
                 {
-                    "input_parameter": "genome_ref",
-                    "target_property": "genome_ref",
-                    "target_type_transform": "resolved-ref"
-                },
-                {
                     "input_parameter": "fastq_ref_list",
                     "target_property": "fastq_ref_list",
                     "target_type_transform": "resolved-ref"
@@ -87,15 +71,7 @@
                     "target_property": "minQuality"
                 }
             ],
-            "output_mapping": [
-                {
-                    "service_method_output_path": [0,"report_name"],
-                    "target_property": "report_name"
-                },{
-                    "service_method_output_path": [0,"report_ref"],
-                    "target_property": "report_ref"
-                }
-            ]
+            "output_mapping": null 
         }
     },
     "job_id_output_field": "docker"

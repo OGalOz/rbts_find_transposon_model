@@ -25,13 +25,6 @@ suggestions:
 # Configure the display and description of parameters
 #
 parameters :
-    genome_ref :
-        ui-name : |
-            Target Genome   
-        short-hint : |
-            The Genome you're checking your reads against to find locations of barcodes.
-        long-hint  : |
-            This is the genome to whose genes we are going to match barcodes so they can be used to measure the abundance of strains with those genes interrupted.
     fastq_ref_list :
         ui-name : |
             FastQ Mapping Reads
