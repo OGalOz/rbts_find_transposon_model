@@ -72,14 +72,13 @@ class rbts_find_transposon_model:
         :returns: instance of type "ReportResults" -> structure: parameter
            "report_name" of String, parameter "report_ref" of String
     
-        
-        What do we take as inputs?
+        Inputs: 
             FASTQ files
-        What do we need?
+        Internal Data:
             All the existing possible 'models' to check FASTQs against.
-        What do we do?
+        Action:
             For each fastq file (Or only the first) - check how many reads
-            hit a given model. Keep a dict with how many reads were hit.
+            hit a given model. Keep a dictionary with how many reads were hit.
             Do this for each model. Compare all the models at the end.
             Create an HTML report file describing the results of the
             different models on the FASTQ files.
